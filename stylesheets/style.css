@@ -1,0 +1,205 @@
+
+/* beginning section begins here */
+
+#welcome{
+  background: url('../images/background.jpg') center center no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  height: -webkit-fill-available;
+  height: 100vh;
+}
+
+.navbar-toggler-icon{
+  color: #fff;
+}
+
+.navbar-nav{
+  text-align: center;
+}
+
+.cookies{
+  width: 100%;
+  height: 55px;
+  background-color: #194277;
+  color: #fff;
+}
+
+.cookie-title{
+  margin-top: 12px;
+
+}
+
+.cookie-btn{
+  color: #194277;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 1px 30px;
+  margin: 9px 18px;
+}
+
+.p-button{
+  padding: 2px 0px 0px 0px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.img-fluid{
+  height: 250px;
+  width: auto;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 50px 20px;
+}
+
+.welcome-paragraph{
+  padding: 0 25%;
+  font-size: 16px;
+}
+
+.hire-btn{
+  font-weight: 600;
+  color: rgb(54, 149, 255);
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 10px 35px;
+  margin: 9px 18px;
+  transition: font-size 0.3s ease, color 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.hire-btn:hover{
+  font-size: 18px;
+  color: rgb(45, 124, 214) !important;
+  box-shadow: 3px 7px 28px rgba(0,0,0,0.25), 3px 7px 10px rgba(0,0,0,0.22) !important;
+}
+.cv{
+  color: rgb(243, 243, 243);
+  transition: font-size 0.3s ease, color 0.3s ease-in,  font-weight 0.3s ease-in;
+  margin-top: 50px;
+}
+.cv:hover{
+  font-size: 18px;
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+.welcome-font-color{
+  color: #fff;
+}
+
+.material-icons{
+  margin-top: 50px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fas{
+  margin-top: 50px;
+}
+
+.fa-adobe{
+ margin-top: 50px;
+}
+/* beginning section ends here */
+
+
+/* about me section starts here */
+
+#about-me{
+  padding: 5% 0
+}
+
+
+.about-title{
+  font-size: 42px;
+  color: #3695ff;
+  margin-bottom: 48px;
+}
+
+
+/* about me section ends here */
+
+/* about me section starts here */
+#expert-in{
+  background: #f1f8ff;
+  padding: 5% 0;
+
+}
+
+.expert-in-icon{
+  color: #3689fe;
+  font-size: 60px;
+  border: 1px solid #d6dee6;
+  border-radius: 60px;
+  padding: 7.5%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.expert-in-titles{
+  color: #3677fd;
+}
+/* about me section ends here */
+
+/* latest works section starts here */
+
+#latest-works{
+  padding: 5% 0;
+}
+
+/* latest works section ends  here */
+
+
+/* latest works section starts here */
+
+#clients{
+background-color: #f1f8ff;
+padding: 5% 0;
+}
+/* latest works section ends  here */
+
+
+/* foooter starts here */
+footer{
+  background: url('../images/footer.jpg') top center no-repeat;
+  padding: 3% 0;
+  width: 100%;
+}
+
+.footer-title{
+  color: #fff;
+  font-size: 40px;
+}
+
+.font-weight-100{
+  font-weight: 500;
+}
+
+/* footer ends here */
+
+
+
+@media only screen and (max-width: 800px) {
+  #welcome{
+    height: auto;
+  }
+  i.material-icons{
+        margin-bottom: 60px;
+  }
+  .cookies {
+    height: 120px;
+  }
+  .welcome-paragraph {
+    padding: 2% 10%;
+  }
+  .cookie-btn{
+    margin: -8px 0 !important;
+  }
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    outline: none !important;
+    font-size: 1.5rem;
+}
+}
